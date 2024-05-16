@@ -19,8 +19,8 @@
                 <div class="row">
                     <button class="btn">(</button>
                     <button class="btn">)</button>
-                    <button class="btn">0</button>
-                    <button id="ce" onclick="backspc()">DEL</button>
+                    <button class="btn">%</button>
+                    <button id="del" onclick="backspc()">DEL</button>
                     <button id="ac" onclick="screen.value=''">AC</button>
                 </div>
 
@@ -28,8 +28,9 @@
                     <button class="btn">7</button>
                     <button class="btn">8</button>
                     <button class="btn">9</button>
-                    <button class="btn">.</button>
-                    <button class="btn">%</button>
+                    <button onclick="square()">x <span style="position: relative; bottom: .6em; right: .5em; font-size: 20px;">2</span> </button>
+                    <button onclick="cube()">x <span style="position: relative; bottom: .6em; right: .5em; font-size: 20px;">3</span> </button>
+
                    
                 </div>
 
@@ -52,9 +53,10 @@
                 </div>
 
                 <div class="row">
-                    <button onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">2</span> </button>
+                    <button class="btn">0</button>
+                    <button class="btn">.</button>
                     <button class="btn">00</button>
-                    <button id="eval" onclick="screen.value=eval(screen.value)">=</button>
+                    <button id="res" onclick="screen.value=eval(screen.value)">=</button>
 
                 </div>
             </div>

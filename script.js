@@ -13,12 +13,24 @@ for (let i = 0; i < btn.length; i++) {
             btntext = '/';
         }
 
+        if (btntext === '+') {
+            btntext = '+';
+        }
+
+        if (btntext === '-') {
+            btntext = '-';
+        }
+
         screen.value += btntext;
     });
 }
 
-function pow() {
+function square() {
     screen.value = Math.pow(screen.value, 2);
+}
+
+function cube() {
+    screen.value = Math.pow(screen.value, 3);
 }
 
 function backspc() {

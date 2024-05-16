@@ -54,91 +54,34 @@ body
     margin-bottom: .5em;
     width: auto;
     height: 70px;
-    font-size: 35px;
+    font-size: 36px;
     outline: none;
     border: none;
     text-align: right;
     padding-right: .5em;
     background: #ecf0f3;
     border-radius: 50px;
-    box-shadow: inset 8px 8px 8px #cbced1,
-                inset -8px -8px 8px #ffffff;
 }
 
-#eval 
+#res 
 {
+    width: 120px;
+    height: 50px;
     background: #41c167;
     color: #fff;
 
 }
 
-#eval:hover 
-{
-    box-shadow: inset 5px 5px 8px #00ace6,
-                inset -5px -5px 8px #00ace6;
-}
-
 #ac 
 {
+    font-size: 25px;
     background: #34badf;
     color: #fff;
 }
 
-#ac:hover 
+#del 
 {
-    box-shadow: inset 5px 5px 8px #2eb82e,
-                inset -5px -5px 8px #33cc33;
-}
-
-#ce 
-{
+    font-size: 25px;
     background: #e9414f;
     color: #e9eee9;
-}
-
-#ce:hover 
-{
-      box-shadow: inset 5px 5px 8px #ac9496,
-                  inset -5px -5px 8px #ece2e2;
-}
-
-/*================= Heading Css =================*/
-h2
-
-{
-    font-size: 40px;
-    position: relative;  
-    bottom: 1em; 
-    margin-left: 1.2em;
-    font-family: sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #d1d9e6,
-                    1px 1px 2px #d1d9e6,
-                    3px 3px 3px #d1d9e6,
-                    4px 4px 4px #d1d9e6,
-                    5px 5px 5px #d1d9e6, 
-                    6px 6px 6px #d1d9e6,
-                    7px 7px 7px #d1d9e6,
-                    8px 8px 8px #d1d9e6;
-                    letter-spacing: 6px;
-}
-
-h2 span
-{
-color: #33cc33;
-font-size: 45px;
-text-shadow: 1px 1px 1px #d1d9e6,
-                1px 1px 2px #d1d9e6,
-                3px 3px 3px #d1d9e6,
-                4px 4px 4px #d1d9e6,
-                5px 5px 5px #d1d9e6, 
-                6px 6px 6px #d1d9e6 ;    
-}
-
-h2 .fa
-{
-    position: absolute; 
-    top: 1.5em;
-    color: #33ccff;
 }
